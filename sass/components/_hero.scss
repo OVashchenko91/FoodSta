@@ -1,0 +1,75 @@
+
+
+.section {
+@include section;
+padding-bottom: 0px
+
+}
+
+.container {
+@include container;
+text-align: start;
+display: flex;
+
+}
+
+.hero--wrap{
+width: 50%;
+}
+
+.hero--header {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+color: #2C2C2C;
+margin-bottom: 28px;
+}
+
+.hero--text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #2C2C2C;
+margin-bottom: 40px;
+}
+
+.button--hero {
+display: flex;
+justify-content: end;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 1.46;
+text-align: right;
+color: #2C2C2C;
+border-radius: 30px;
+background: #BBF330;
+border:1px solid #BBF330;
+padding: 6px 18px;
+
+&:hover {
+border-radius: 30px;
+background: none;
+border:1px solid rgba(89, 125, 0, 1)
+;
+}
+
+
+}
+.hero--wrap--foto {
+display: flex;
+width: 50%;
+}
+
+.foto--hero {
+border: 26px solid #FFE550;
+border-radius: 50%;
+position: absolute;
+top: 72px;
+
+}

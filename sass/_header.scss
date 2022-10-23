@@ -16,9 +16,12 @@ margin-left: auto;
 
 }
 
-.header__nav--item{
-
+.header--logo{
+width: 66px;
+height: 52px;
+display: block;
 }
+
 
 .header__nav--list{
 display: flex;
@@ -40,7 +43,7 @@ color: #BBF330;
 }
 }
 
-.button-nav{
+.button--nav{
 display: flex;
 justify-content: end;
 font-family: 'Roboto';

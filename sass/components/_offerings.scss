@@ -1,0 +1,121 @@
+.section-offerings {
+@include section;
+background-image: url(../images/rectangle-offerings.png);
+background-repeat: no-repeat;
+background-size: cover;
+max-width: 1280px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.container-offerings {
+@include container;
+text-align: start;
+display: flex;
+align-items: flex-end;
+
+}
+.container-offerings-foto{
+width: 50%;
+}
+.container-offerings-wrap{
+width: 50%;
+}
+
+.foto--offer{
+border-radius: 50%;
+border: 5px solid rgba(255, 255, 255, 0.5);
+padding: 24px;
+}
+
+.offerings--header{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 120%;
+color: #2C2C2C;
+margin-bottom: 20px;
+
+
+}
+
+.offerings--text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #2C2C2C;
+margin-bottom: 40px;
+}
+
+.offerings--wrap{
+display: flex;
+}
+
+.offerings--header--second {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+color: #2C2C2C;
+margin-bottom: 16px;
+
+}
+
+.offerings--text--second {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #2C2C2C;
+margin-bottom: 32px;
+}
+.button--offerings{
+    border-radius: 30px;
+    background: #FFFFFF;
+    border: 2px solid #7EB101;
+    padding: 6px 18px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 150%;
+color: #2C2C2C;
+
+&:hover {
+border: 2px solid #597D00;
+}
+}
+
+.wrap--delivery::before{
+display: block;
+    content: "";
+    height: 48px;
+    width: 48px;
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    background-image: url(../images/rocket.svg);
+    margin-bottom: 8px;
+}
+
+.wrap--order::before{
+display: block;
+    content: "";
+    height: 48px;
+    width: 48px;
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    background-image: url(../images/touch.svg);
+    margin-bottom: 8px;
+}
