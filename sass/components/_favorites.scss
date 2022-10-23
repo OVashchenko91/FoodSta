@@ -32,3 +32,33 @@ text-align: center;
 color: #2C2C2C;
 margin-bottom: 40px;
 }
+
+.favorites--list {
+display: flex;
+flex-wrap: wrap;
+margin-top: 40px;
+}
+
+
+.favorites--item{
+width: calc((100% - 96px) / 3);
+margin-right: 32px;
+margin-bottom: 32px;
+background: #FEFEFE;
+border: 16px solid #FFE550;
+border-radius: 197px;
+}
+
+.favorites--item:nth-child(3n){
+margin-right: 0px;
+}
+
+.favorites--item:nth-last-child(-n+3){
+margin-bottom: 0px;
+
+}
+
+.img-favorites{
+border-radius: 164.5px;
+padding: 41px;
+}
