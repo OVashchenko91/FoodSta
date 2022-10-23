@@ -55,14 +55,36 @@ border-radius: 0px 30px 30px 30px;
 padding: 14px;
 }
 
-.customers--text {
+.customers--text--wrap {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 21px;
 color: #2C2C2C;
+
+margin-bottom: 42px;
 }
+
+.customers--text--wrap::before{
+display: block;
+    content: "";
+    height: 16px;
+    width: 101px;
+    background-size: 101px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    background-image: url(../images/stars.svg);
+    margin-bottom: 28px;
+  
+}
+.image {
+    border: 2px solid #FFE550;
+    border-radius: 50%;
+
+}
+
 
 .customers--name {
 font-family: 'Roboto';
@@ -86,6 +108,21 @@ width: 48px;
 height: 48px;
 }
 
-.customers--wrap--right {
+.customers--wrap-foto {
 display: flex;
+}
+
+.customers--wrap-foto::after{
+border: 1px solid #7EB101;
+
+content: '';
+margin-left: 16px;
+}
+
+
+.wrap--name {
+display: flex;
+flex-direction: column;
+margin-left: 16px;
+justify-content: center
 }

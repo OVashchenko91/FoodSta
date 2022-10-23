@@ -434,13 +434,32 @@ ul, h1, h2, h3, p {
   padding: 14px;
 }
 
-.customers--text {
+.customers--text--wrap {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
   color: #2C2C2C;
+  margin-bottom: 42px;
+}
+
+.customers--text--wrap::before {
+  display: block;
+  content: "";
+  height: 16px;
+  width: 101px;
+  background-size: 101px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #FFFFFF;
+  background-image: url(../images/stars.svg);
+  margin-bottom: 28px;
+}
+
+.image {
+  border: 2px solid #FFE550;
+  border-radius: 50%;
 }
 
 .customers--name {
@@ -466,6 +485,93 @@ ul, h1, h2, h3, p {
   height: 48px;
 }
 
-.customers--wrap--right {
+.customers--wrap-foto {
   display: flex;
+}
+
+.customers--wrap-foto::after {
+  border: 1px solid #7EB101;
+  content: "";
+  margin-left: 16px;
+}
+
+.wrap--name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  justify-content: center;
+}
+
+.section-subscribe {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  background: #F5F5F5;
+  padding-top: 0px;
+  padding-bottom: 65px;
+}
+
+.container-subscribe {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 1250px;
+  align-items: center;
+  text-align: start;
+  background: #F5F5F5;
+  display: flex;
+  align-items: normal;
+}
+
+.subscribe-wrap {
+  width: 50%;
+}
+
+.subscribe-wrap-foto {
+  width: 50%;
+}
+
+.subscribe-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 120%;
+  color: #2C2C2C;
+  margin-bottom: 20px;
+}
+
+.subscribe-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2C2C2C;
+  margin-bottom: 24px;
+}
+
+.subscribe-input {
+  background: none;
+  border: 0.854167px solid #FFE550;
+  border-radius: 30px;
+  padding: 12px 57px 12px 11px;
+  color: #505050;
+}
+
+.button-sub {
+  border: #BBF330;
+  background: #BBF330;
+  border-radius: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  color: #2C2C2C;
+  padding: 11px 22px;
+}
+.button-sub:hover {
+  background: #B5FF00;
 }/*# sourceMappingURL=main.css.map */
