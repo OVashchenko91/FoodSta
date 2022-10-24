@@ -189,7 +189,7 @@ ul, h1, h2, h3, p {
   background-image: url(../images/rectangle-offerings.png);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1280px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -384,7 +384,7 @@ ul, h1, h2, h3, p {
   background-image: url(../images/customers.png);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1280px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -574,4 +574,48 @@ ul, h1, h2, h3, p {
 }
 .button-sub:hover {
   background: #B5FF00;
+}
+
+.section--footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: start;
+  background-image: url(../images/fruit-footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container--footer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 1250px;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  display: flex;
+}
+
+.footer-nav-list {
+  display: inline-flex;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-wrap-logo {
+  width: 50%;
+}
+
+.footer-wrap-sub {
+  width: 50%;
 }/*# sourceMappingURL=main.css.map */
