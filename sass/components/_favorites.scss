@@ -47,6 +47,10 @@ margin-bottom: 32px;
 background: #FEFEFE;
 border: 16px solid #FFE550;
 border-radius: 197px;
+&:hover{
+border: 16px solid #BBF330;
+
+}
 }
 
 .favorites--item:nth-child(3n){

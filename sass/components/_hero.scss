@@ -1,11 +1,9 @@
 
 
 .section-hero {
-@include section;
-padding-bottom: 0px;
-padding-top: 0px
 
-
+padding-bottom: 40px;
+padding-top: 160px;
 }
 
 .container {
@@ -64,9 +62,10 @@ border:1px solid rgba(89, 125, 0, 1)
 
 }
 .hero--wrap--foto {
-display: flex;
-width: 50%;
 justify-content: flex-end;
+display: inline-block;
+position: absolute;
+right: 32px;
 }
 
 .foto--hero {
