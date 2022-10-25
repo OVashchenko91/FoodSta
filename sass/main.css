@@ -741,4 +741,122 @@ ul, h1, h2, h3, p {
 
 .list-policy-item:nth-child(-n+2) {
   margin-right: 20px;
+}
+
+.icon-close-black:hover {
+  fill: #2196F3;
+}
+
+.icon-close-black:focus {
+  fill: #2196F3;
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 32px;
+  background-color: rgb(255, 255, 255);
+  z-index: 999;
+  transform: translateX(100%);
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  transition: transform 250ms ease-in-out;
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .menu-container.is-open {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .mobile-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .menu-toggle {
+    display: flex;
+  }
+}
+@media screen and (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+.menu-toggle {
+  border: none;
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+  margin-left: auto;
+}
+
+.mobile-menu-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.mobile-menu-item:hover, .mobile-menu-item:focus {
+  color: #2196F3;
+}
+
+.mobile-menu-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.mobile-menu-contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.mobile-menu-contact:hover, .mobile-menu-contact:focus {
+  color: #2196F3;
+}
+
+.contacts {
+  margin-top: 302px;
+}
+
+.mobile-menu-social {
+  display: flex;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+  margin-top: 64px;
+  flex-wrap: wrap;
+}
+
+.mobile-menu-contact:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.menu-social-item:not(:last-child)::after {
+  content: "";
+  width: 22px;
+  height: 0px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  transform: rotate(90deg);
+  margin-left: 10px;
+  margin-right: 10px;
 }/*# sourceMappingURL=main.css.map */
