@@ -3,6 +3,12 @@
 }
 
 .container-header {
+@media screen and (min-width: 320px) and (max-width: 1199px){
+display: flex;
+padding: 22px 20px;
+width: 100%;
+}
+
 @include container;
 display: flex;
 padding-top: 20px;
@@ -13,6 +19,10 @@ padding-bottom: 20px;
 display: flex;
 justify-content: end;
 margin-left: auto;
+
+@media screen and (min-width: 320px) and (max-width: 1199px){
+display: none;
+}
 
 }
 
@@ -26,6 +36,10 @@ display: block;
 .header__nav--list{
 display: flex;
 align-items: center;
+
+@media screen and (min-width: 320px) and (max-width: 1199px){
+display: none;
+}
 }
 
 .nav--item{
@@ -65,5 +79,7 @@ border:1px solid rgba(89, 125, 0, 1)
 ;
 }
 
-
+@media screen and (min-width: 320px) and (max-width: 1199px){
+display: none;
+}
 }
