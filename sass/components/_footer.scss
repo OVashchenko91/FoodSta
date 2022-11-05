@@ -292,3 +292,32 @@ color: #7EB101;
 .list-policy-item:nth-child(-n + 2){
 margin-right: 20px;
 }
+
+.footer-policy {
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 40px;
+display: flex;
+
+@media screen and (min-width: 768px){
+flex-direction: row;
+justify-content: flex-start;
+margin-top: 40px;
+align-items: center;
+}
+}
+
+
+.footer-text-policy {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #2C2C2C;
+@media screen and (min-width: 768px){
+margin-left: auto;
+}
+}
