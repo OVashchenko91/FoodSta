@@ -129,6 +129,12 @@ ul, h1, h2, h3, p {
   }
 }
 
+.logo__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .section-hero {
   padding-bottom: 40px;
   padding-top: 160px;
@@ -372,6 +378,7 @@ ul, h1, h2, h3, p {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
+  justify-content: center;
 }
 
 .favorites--item {
@@ -397,6 +404,7 @@ ul, h1, h2, h3, p {
 .img-favorites {
   border-radius: 164.5px;
   padding: 41px;
+  max-width: 100%;
 }
 
 .section--customers {
